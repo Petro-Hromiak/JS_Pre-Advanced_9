@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+    display: flex;
+    margin: 30px;
+}
+
+.form, .output {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=text], input[type=password], .user-button {
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    position: relative;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+input:focus {
+    box-shadow: 0 0 10px blueviolet;
+}
+
+button {
+    box-shadow: 0 0 10px rgb(141, 226, 43);
+}
+
+.firstName, .secondName, .email, .password, .signUp {
+    border: 1px solid aquamarine;
+}
+
+.user-button {
+    width: 40%;
+    background-color: rgb(111, 111, 250);
+    color: rgb(179, 178, 178);
+    font-size: 18px;
+    padding: 0px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+.table {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-collapse: collapse;
+    min-height: 40px;
+    text-align: center;
+}
+
+tr {
+    border-top: 1px solid gray;
+    height: 40px;
+}
+
+.hide {
+    display: none;
+}
+
+.editButton {
+    width: 50px;
+    height: 30px;
+    background-color: yellow;
+    border: none;
+}
+
+.deleteButton {
+    width: 50px;
+    height: 30px;
+    background-color: red;
+    color: wheat;
+    border: none;
+}
